@@ -1,11 +1,11 @@
 <h1>Exercício 2</h1>
-<h1>Proposta:</h1>
+<h2>Proposta:</h2>
 <p> Crie uma lista linear que consiga armazenar um conjunto de 100 nomes quaisquer, os quis serão salvos de forma aleatória. Feito a estrutura, crie as seguintes ações:</p>
 <ul>
   <li>Uma função que consiga identificar replicações na lista, ou seja, nomes iguais. Remova todas as réplicas sem mover os "ponteiros"</li>
   <li>Como você gerenciaria os espaços em branco para novas inserções? Qual seria o custo dessas novas inserções?</li>
   </ul>
- <h1>Desenvolvimento:</h1>
+ <h2>Desenvolvimento:</h2>
  <p>O primeiro passo é criar ou anexar a pasta um arquivo .txt que cotenha os nomes que serão lidos. Para que o programa execute sem problemas, é necessário que coloque-se uma linha em branco extra após o fim dos nomes, assim como no exemplo da foto abaixo:</p>
  <img src="imgs/txt.png" alt=ExemploArquivoTxt>
 <p>Após o comando para executar(make run), o programa cria uma lista e preenche todas as primeiras posições(posição 0) do vetor de caracteres nome que está armazenado dentro do vetor nomes.</p>
@@ -31,7 +31,7 @@
     </dl>
 </li>
 
-<h1>Compilação e Execução:</h1>
+<h2>Compilação e Execução:</h2>
 <p>A lista linear disponibilizada possui um arquivo makefile que realiza todo o procedimento de compilação e execução. Para tanto, as seguintes diretrizes devem ser executadas em ordem:</p>
 <table>
   <tr>
