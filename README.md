@@ -1,5 +1,4 @@
 <h1>Exercício 2</h1>
-<br>
 <h1>Proposta:</h1>
 <p> Crie uma lista linear que consiga armazenar um conjunto de 100 nomes quaisquer, os quis serão salvos de forma aleatória. Feito a estrutura, crie as seguintes ações:</p>
 <ul>
