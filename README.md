@@ -10,6 +10,9 @@
  <h1>Desenvolvimento:</h1>
  <br>
  <p>Vamos explicar o desenvolvimento do problema com um exemplo.</p>
- <p>O primeiro passo é criar ou anexar a pasta um arquivo .txt que cotenha os nomes que serão lidos. Para que o programa execute sem problemas, é necessário que coloque-se uma linha em branco extra após o fim dos nomes, assim como no exemplo da foto abaixo</p>
+ <p>O primeiro passo é criar ou anexar a pasta um arquivo .txt que cotenha os nomes que serão lidos. Para que o programa execute sem problemas, é necessário que coloque-se uma linha em branco extra após o fim dos nomes, assim como no exemplo da foto abaixo:</p>
  <img src="imgs/txt.jpg" alt=ExemploArquivoTxt>
-  
+ 
+<p>Após o comando para executar, o programa cria uma lista e preenche todas as primeiras posições(posição 0) do vetor de caracteres nome que está armazenado dentro do vetor nomes.</p>
+<img src="imgs/crialista.jpg> alt=CriaLista>
+ 
