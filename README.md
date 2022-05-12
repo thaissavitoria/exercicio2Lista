@@ -14,7 +14,7 @@
  <img src="imgs/txt.png" alt=ExemploArquivoTxt>
  
 <p>Após o comando para executar(make run), o programa cria uma lista e preenche todas as primeiras posições(posição 0) do vetor de caracteres nome que está armazenado dentro do vetor nomes.</p>
-<img src="imgs/FLvazia.png" alt=FazListaVazia>
+<img src="imgs/FazListaVazia.png" alt=FazListaVazia>
 <p>Esse preenchimento será útil para o procedimento de remoção de nomes iguais posteriormente.</p>
 <p> Então, o programa chama uma função que copia os nomes do arquivo "nomes.txt" para a lista inicializada anteriormente e imprime a lista após o fim das inserções.</p>
 <p>O processo de impressão confere se o primeiro caracter do nome é diferente de "0", se for, ele imprime a string</p>
