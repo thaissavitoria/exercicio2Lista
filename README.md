@@ -38,4 +38,23 @@
 <br>
 <h1>Compilação e Execução:</h1>
 <p>A lista linear disponibilizada possui um arquivo makefile que realiza todo o procedimento de compilação e execução. Para tanto, as seguintes diretrizes devem ser executadas em ordem:</p>
-<img src="imgs/tabela.png" alt=ComandosDeExecucao>
+<table>
+  <tr>
+    <th>Comando</th>
+    <th>Função</th>
+  </tr>
+  
+  <tr>
+    <td><i>make clean</i></td>
+    <td>Apaga a última compilação realizada contida na pasta build</td>
+  </tr>
+  
+   <tr>
+    <td><i>make</i></td>
+    <td>Executa a compilação do programa utilizando o gcc, e o resultado vai para a pasta build</td>
+  </tr>
+  
+  <tr>
+    <td><i>make run</i></td>
+    <td>Executa o programa da pasta build após a realização da compilação</td>
+  </tr>
