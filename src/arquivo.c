@@ -32,27 +32,3 @@ void CopiaNomesDoArq(lista* l)
     }
     fclose(arq);
 }
-
-int NumeroDeLinhas()
-{
-    FILE*arq;
-    char c;
-    int num=0;
-
-    arq=fopen("nomes.txt","r");
-    
-    if(arq==NULL)
-    {
-        printf("\nHouve um erro ao abrir o arquivo!\n");
-        exit(0);
-    }
-    else
-    {
-        while (c=fgetc(arq)!=EOF)
-        {
-            if(c=='\n')
-                num++;
-        }
-     return num;
-    }   
-}

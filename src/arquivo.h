@@ -6,6 +6,4 @@
 void CopiaNomesDoArq(lista* l);
 ///pega os nomes do arquivo e transfere para lista, linha por linha
 
-int NumeroDeLinhas();
-
 #endif
