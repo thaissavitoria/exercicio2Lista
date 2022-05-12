@@ -5,11 +5,9 @@
   <li>Uma função que consiga identificar replicações na lista, ou seja, nomes iguais. Remova todas as réplicas sem mover os "ponteiros"</li>
   <li>Como você gerenciaria os espaços em branco para novas inserções? Qual seria o custo dessas novas inserções?</li>
   </ul>
- <br>
  <h1>Desenvolvimento:</h1>
  <p>O primeiro passo é criar ou anexar a pasta um arquivo .txt que cotenha os nomes que serão lidos. Para que o programa execute sem problemas, é necessário que coloque-se uma linha em branco extra após o fim dos nomes, assim como no exemplo da foto abaixo:</p>
  <img src="imgs/txt.png" alt=ExemploArquivoTxt>
- 
 <p>Após o comando para executar(make run), o programa cria uma lista e preenche todas as primeiras posições(posição 0) do vetor de caracteres nome que está armazenado dentro do vetor nomes.</p>
 <img src="imgs/FazListaVazia.png" alt=FazListaVazia>
 <p>Esse preenchimento será útil para o procedimento de remoção de nomes iguais posteriormente.</p>
@@ -17,7 +15,6 @@
 <p>O processo de impressão confere se o primeiro caracter do nome é diferente de "0", se for, ele mostra a string para o usuário.</p>
 <p>No próximo passo, o programa chama um função que percorre o vetor de nomes presentes na lista e se encontra algum repetido, seta a primeira posição do seu vetor de caracteres nome para "0", o que o faz ser "excluído" do vetor nomes(ele apenas não aparecerá na próxima impressão, que ocorre logo após,m).</p>
 <p>Por último, o programa imprime novamente usando o critério citado anteriormente.</p>
-<br>
 <h1>Questões:</h1>
 <ol>
   <li>
@@ -33,8 +30,7 @@
       <dd>No caso do código, o custo seria o de percorrer o vetor de nomes, ou seja, n.</dd>
     </dl>
 </li>
-  
-<br>
+
 <h1>Compilação e Execução:</h1>
 <p>A lista linear disponibilizada possui um arquivo makefile que realiza todo o procedimento de compilação e execução. Para tanto, as seguintes diretrizes devem ser executadas em ordem:</p>
 <table>
