@@ -11,10 +11,10 @@
  <br>
  <p>Vamos explicar o desenvolvimento do problema com um exemplo.</p>
  <p>O primeiro passo é criar ou anexar a pasta um arquivo .txt que cotenha os nomes que serão lidos. Para que o programa execute sem problemas, é necessário que coloque-se uma linha em branco extra após o fim dos nomes, assim como no exemplo da foto abaixo:</p>
- <img src="imgs/txt.jpg" alt=ExemploArquivoTxt>
+ <img src="imgs/txt.png" alt=ExemploArquivoTxt>
  
 <p>Após o comando para executar(make run), o programa cria uma lista e preenche todas as primeiras posições(posição 0) do vetor de caracteres nome que está armazenado dentro do vetor nomes.</p>
-<img src="imgs/FLvazia.jpg" alt=FazListaVazia>
+<img src="imgs/FLvazia.png" alt=FazListaVazia>
 <p>Esse preenchimento será útil para o procedimento de remoção de nomes iguais posteriormente.</p>
 <p> Então, o programa chama uma função que copia os nomes do arquivo "nomes.txt" para a lista inicializada anteriormente e imprime a lista após o fim das inserções.</p>
 <p>O processo de impressão confere se o primeiro caracter do nome é diferente de "0", se for, ele imprime a string</p>
