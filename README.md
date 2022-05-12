@@ -11,5 +11,5 @@
  <br>
  <p>Vamos explicar o desenvolvimento do problema com um exemplo.</p>
  <p>O primeiro passo é criar ou anexar a pasta um arquivo .txt que cotenha os nomes que serão lidos. Para que o programa execute sem problemas, é necessário que coloque-se uma linha em branco extra após o fim dos nomes, assim como no exemplo da foto abaixo</p>
- <img src="imgs/txt.jpg" alt=ExemploArquivoTxt">
+ <img src="imgs/txt.jpg" alt=ExemploArquivoTxt>
   
