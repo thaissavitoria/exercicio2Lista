@@ -30,6 +30,7 @@
 <dd>No caso do código, o custo seria o de percorrer o vetor de nomes, ou seja, n.</dd>
 </dl>
 </li>
+</ol>
 
 <h2>Compilação e Execução:</h2>
 <p>A lista linear disponibilizada possui um arquivo makefile que realiza todo o procedimento de compilação e execução. Para tanto, as seguintes diretrizes devem ser executadas em ordem:</p>
