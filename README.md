@@ -15,41 +15,41 @@
 <p>O processo de impressão confere se o primeiro caracter do nome é diferente de "0", se for, ele mostra a string para o usuário.</p>
 <p>No próximo passo, o programa chama um função que percorre o vetor de nomes presentes na lista e se encontra algum repetido, seta a primeira posição do seu vetor de caracteres nome para "0", o que o faz ser "excluído" do vetor nomes(ele apenas não aparecerá na próxima impressão, que ocorre logo após,m).</p>
 <p>Por último, o programa imprime novamente usando o critério citado anteriormente.</p>
-<h1>Questões:</h1>
+<h2>Questões:</h2>
 <ol>
-  <li>
-    <dl>
-      <dt>Como você gerenciaria os espaços em branco para as novas inserções?</dt>
-      <dd> Seria basicamente o mesmo processo da impressão, se a primeira posição de algum dos vetores de caracteres "nome", presentes no vetor "nomes" da lista, fosse igual a "0", a inserção poderia ser realizada.</dd>
-   </dl>
-   </li>
+<li>
+<dl>
+<dt>Como você gerenciaria os espaços em branco para as novas inserções?</dt>
+<dd> Seria basicamente o mesmo processo da impressão, se a primeira posição de algum dos vetores de caracteres "nome", presentes no vetor "nomes" da lista, fosse igual a "0", a inserção poderia ser realizada.</dd>
+</dl>
+</li>
     
- <li>
-    <dl>
-      <dt>Qual seria o custo dessas novas inserções?</dt>
-      <dd>No caso do código, o custo seria o de percorrer o vetor de nomes, ou seja, n.</dd>
-    </dl>
+<li>
+<dl>
+<dt>Qual seria o custo dessas novas inserções?</dt>
+<dd>No caso do código, o custo seria o de percorrer o vetor de nomes, ou seja, n.</dd>
+</dl>
 </li>
 
 <h2>Compilação e Execução:</h2>
 <p>A lista linear disponibilizada possui um arquivo makefile que realiza todo o procedimento de compilação e execução. Para tanto, as seguintes diretrizes devem ser executadas em ordem:</p>
 <table>
-  <tr>
-    <th>Comando</th>
-    <th>Função</th>
-  </tr>
+<tr>
+<th>Comando</th>
+<th>Função</th>
+</tr>
   
-  <tr>
-    <td><i>make clean</i></td>
-    <td>Apaga a última compilação realizada contida na pasta build</td>
-  </tr>
+<tr>
+<td><i>make clean</i></td>
+<td>Apaga a última compilação realizada contida na pasta build</td>
+</tr>
   
-   <tr>
-    <td><i>make</i></td>
-    <td>Executa a compilação do programa utilizando o gcc, e o resultado vai para a pasta build</td>
-  </tr>
+<tr>
+<td><i>make</i></td>
+<td>Executa a compilação do programa utilizando o gcc, e o resultado vai para a pasta build</td>
+</tr>
   
-  <tr>
-    <td><i>make run</i></td>
-    <td>Executa o programa da pasta build após a realização da compilação</td>
-  </tr>
+<tr>
+<td><i>make run</i></td>
+<td>Executa o programa da pasta build após a realização da compilação</td>
+</tr>
